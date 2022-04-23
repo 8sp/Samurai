@@ -1,4 +1,4 @@
-# Gh-Checker
+# Discord IP-Logger
 
 ![Screenshot_3](https://user-images.githubusercontent.com/88463490/164945146-d1bcb260-6ab4-4405-a16c-6ab23806f0d3.png)
 
