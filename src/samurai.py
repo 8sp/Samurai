@@ -10,6 +10,8 @@ from os import system
 colorama.init(autoreset=True)
 system("title " + "You've Been Hacked By Samurai")
 
+webhook = ""
+
 # Null
 logo = f"""
 ⠀⠀⠀
@@ -18,7 +20,7 @@ logo = f"""
                 ▬▬ι═══════ﺤ
 """
 print(Fore.RED+logo)
-webhook = input(f"[{Fore.RED}?{Fore.RESET}] Webhook: ")
+
 
 # Def Function
 def Samurai():
