@@ -1,0 +1,3 @@
+requests==2.7.0
+colorama==0.1.7
+os-sys=2.1.4
