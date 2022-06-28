@@ -9,7 +9,7 @@
 $ pip install os
 $ pip install colorama
 $ pip install requests
-$ discord webhook
+$ pip install -r requierments.txt
 ```
 ## INSTALLATION [Linux]:
 ```
