@@ -11,7 +11,7 @@ from os import system
 colorama.init(autoreset=True)
 system("title " + "You've Been Hacked By Samurai")
 
-webhook = "https://discord.com/api/webhooks/1038205561218535444/Q3S88PvIZFWD46do5yyWCUTM7GuCBSjUn6C4Ci4sdYNFNrfUSa7vtPi7OZNUfm8pmEI9"
+webhook = "Webhook"
 
 # Null
 logo = f"""
